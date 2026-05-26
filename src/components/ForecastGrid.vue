@@ -1,7 +1,7 @@
 <template>
   <div class="w-full text-left">
     <h2 class="text-2xl font-black mb-4 border-b-4 border-black pb-2 inline-block bg-pink-300 px-3 py-1 neo-border-sm neo-shadow-sm transform -rotate-1">
-      未来 4 天天气预报 📅
+      近期天气预报 📅
     </h2>
 
     <div v-if="store.forecastWeather && store.forecastWeather.casts" class="grid grid-cols-2 lg:grid-cols-4 gap-4 mt-2">
